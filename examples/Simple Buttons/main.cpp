@@ -7,7 +7,7 @@ void ExampleButtonEvent(Button* button, ButtonEvent e) {
     }
 }
 
-static int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine, int nCmdShow)
+static int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrevInstance, PWSTR pCmdLine, int nCmdShow)
 {
     //Create a template 'Press Me!' Button
     Button button;
